@@ -1,72 +1,22 @@
-# Final project
+# Collaborative Playlist Analyses
 
-Starter code for your final project.
+The content in this repository are analyses on the collaborative playlist (CP) survey. 
 
-## General points
+### The survey
+The CP survey was created based on findings from ethnography and direct observations of CP users (N=10). 
+The preliminary work can be found here: https://ccrma.stanford.edu/groups/meri/assets/pdf/park2017ISMIR_LBD.pdf
 
-- for folder and file names: 
-	+ don't use white space in either folder or filenames, use an underscore "_" instead
-	+ (almost always) use lower case only
-- always use relative paths in your code
-	+ for example, to save a figure from an R script inside the `code/R/` folder the path should be "../../figures/figure_name.pdf"
-- keep your folder structure organized
-	+ we recommend adhering to the folder structure in this repository 
-	+ more complex projects may have additional folders such as `videos/`, `papers/`, ...
-- note: some of the folders are empty except for a `.keep` file
-	+ the `.keep` file is just there to make sure that github includes the otherwise empty folder 
-	+ feel free to delete the `.keep` file once you've added another file to that folder
+The survey aims to understand the landscape of CP usage, how CP usage correlates with various perceptions (e.g., music's role in social connectedness), as well as the usage patterns of CPs. We are currently conducting a multi-cultural study on CP.
+Survey link: https://goo.gl/qWXKsT
 
-## Repository structure 
+More work has stemmed out of this survey and will be presented at ISMIR in November 2019.
+The pre-print for this can be found here: https://ccrma.stanford.edu/groups/meri/assets/pdf/park2019cameraReady.pdf
 
-```
-├── code
-│   └── R
-├── data
-├── figures
-├── papers
-├── presentation
-└── writeup
-    ├── final_report
-    └── proposal
-```
+This survey is part of a larger study on collaborative music platforms that I am leading.
 
-### code 
+### The data
+The data analyzed here was collected over two months: January and February 2019.
 
-Put all your code here. If you are using another programming language for some of your coding, add a separate folder here for that language. For example, you could add a `python/` folder for any python scripts that you're using. 
-
-#### R 
-
-Make sure to put all the R scripts and RMarkdown scripts into this folder. It already contains a RMarkdown template for the project proposal.
-
-### data 
-
-Put your raw data file here. Any data wrangling to that file should happen in your R script. Feel free to remove the `poker.csv` data set in this folder. 
-
-### figures 
-
-Save all your figures here. You may want to include additional subfolder here such as `plots/`, `diagrams/` etc. Feel free to remove the `example_figure.pdf` in that folder. 
-
-### papers 
-
-Put research papers here that are relevant for your project. 
-
-### presentation
-
-Put your project presentation here (e.g. your keynote, powerpoint, google slides, or pdf file).
-
-### writeup 
-
-Put all your writing here. This folder structure is likely to expand for more complex projects. For example, you could add a subfolders like folders `journal/jpsp/submission/`, `journal/jpsp/resubmission/` etc. 
-
-#### final_report 
-
-The pdf of your final report should go here. 
-
-#### proposal 
-
-The pdf of your project proposal should go here. 
-
-
-
-
-
+### The analysis
+The analysis was conducted during the first two weeks of March 2019 for PSYCH 252: Statistical Methods.
+Classmates Alexa Siu and So Yeon Park both contributed towards the analyses equally.

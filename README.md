@@ -8,7 +8,7 @@ The preliminary work can be found here: https://ccrma.stanford.edu/groups/meri/a
 
 
 The survey aims to understand the landscape of CP usage, how CP usage correlates with various perceptions (e.g., music's role in social connectedness), as well as the usage patterns of CPs. <br />
-We are currently conducting a multi-cultural study on CP. <br />
+*We are currently conducting a multi-cultural study on CP.* <br />
 Survey link: https://goo.gl/qWXKsT
 
 

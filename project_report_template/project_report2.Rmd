@@ -168,6 +168,7 @@ To further understand what actions might be most indicative of the sense of owne
 ### Load
 ```{r warning=F, message=FALSE}
 df.raw <- read.csv("../data/SY Music Playlist - V3_March 1, 2019_14.26.csv")
+# df.raw <- read.csv("/Users/soyeonpark/Documents/Stanford2/201901_Winter/PSYCH252_TGerstenberg/final-project-playlist/data/SY Music Playlist - V3_March 1, 2019_14.26.csv")
 ```
 
 ### Filter 

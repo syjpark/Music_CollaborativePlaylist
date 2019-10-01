@@ -1,0 +1,4 @@
+"0","# 8.1.1 Age Q8.1_3"
+"0","ggplot(df.raw %>% select(Q2.3, Q8.1_3) %>% mutate_if(is.character, as.numeric), mapping = aes(x = factor(Q8.1_3))) +"
+"0","  geom_bar(aes(fill = Q2.3)) +"
+"0","  scale_color_discrete(name = ""CP?"")"

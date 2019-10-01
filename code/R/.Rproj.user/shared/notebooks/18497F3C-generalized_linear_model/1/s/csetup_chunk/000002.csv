@@ -1,0 +1,4 @@
+"0","# these options here change the formatting of how comments are rendered"
+"0","knitr::opts_chunk$set(comment = """","
+"0","                      results = ""hold"","
+"0","                      fig.show = ""hold"")"

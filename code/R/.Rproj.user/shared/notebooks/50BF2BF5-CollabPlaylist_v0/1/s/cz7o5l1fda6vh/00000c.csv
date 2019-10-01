@@ -1,0 +1,5 @@
+"0","# % don't use playlist BUT want to"
+"0","df.raw %>% "
+"0","  filter(Q2.3 == ""No"" & Q3.3 != ""No, I would be not interested in initiating or joining a collaborative playlist."") %>% "
+"0","  summarize(n = n(),"
+"0","            percentage = n/45)"

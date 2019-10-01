@@ -1,0 +1,4 @@
+"0","# don't use playlist AND don't want to because..."
+"0","df.reasonsNo <- df.raw %>% "
+"0","  filter(Q2.3 == ""No"" & Q3.3 == ""No, I would be not interested in initiating or joining a collaborative playlist."") %>% "
+"0","  select(Q3.7)"

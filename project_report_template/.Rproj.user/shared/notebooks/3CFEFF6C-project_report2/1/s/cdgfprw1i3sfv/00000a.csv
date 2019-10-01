@@ -1,0 +1,8 @@
+"0","# Q5.20 Ownership"
+"0","df.ownershiP_Q5_20 = df.raw_yes %>%  select(starts_with('Q5.20')) %>% "
+"0","        mutate(id = row_number()) %>% "
+"0","        select(id, 'Q5.20') %>% "
+"0","        setnames(""Q5.20"", ""ownership"")"
+"2","Error: row_number() should only be called in a data context
+[90mCall `rlang::last_error()` to see a backtrace[39m
+"

@@ -1,0 +1,28 @@
+"0","library(""car"")
+"
+"2","Loading required package: carData
+"
+"2","
+Attaching package: ‘car’
+
+"
+"2","The following object is masked from ‘package:DescTools’:
+
+    Recode
+
+"
+"2","The following object is masked from ‘package:boot’:
+
+    logit
+
+"
+"2","The following object is masked from ‘package:purrr’:
+
+    some
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    recode
+
+"

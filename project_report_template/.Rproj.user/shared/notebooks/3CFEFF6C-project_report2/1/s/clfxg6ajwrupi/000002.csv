@@ -1,0 +1,5 @@
+"0","# only include factors from 5.16"
+"0","fit.compact = lm(ownership ~ 1 + check + listen_playAlone + "
+"0","                   listen_playOthers + contribute + share, data = df.Q2)"
+"2","Error in is.data.frame(data) : object 'df.Q2' not found
+"

@@ -1,0 +1,53 @@
+"0","graph_gen4 <- ggplot(df.gen_both, mapping = aes(x = effect, y = as.numeric(num_rating), color = factor(experience))) +
+  theme(axis.text.x = element_text(angle = 40, hjust = 1, size = 10)) + 
+  geom_boxplot(data = df.gen_both, 
+               aes(color = factor(experience), 
+                   fill = factor(experience)),
+               alpha = 0.5, 
+               position = ""dodge2"") +
+  geom_jitter(data = df.gen_both %>% filter(experience == 0), 
+             color = ""orange"",
+             alpha = 0.2, 
+             height = 0.01,
+             size = 1) +
+  geom_jitter(data = df.gen_both %>% filter(experience == 1), 
+             color = ""blue"",
+             alpha = 0.2,
+            height = 0.01,
+             size = 1) +
+  scale_color_manual(values = c(""orange"",""blue""), labels = c(""0"",""1""))
+  theme(legend.position = c(0.9,0.1))
+"
+"1","List"
+"1"," of "
+"1","1"
+"1","
+"
+"1"," "
+"1","$ "
+"1","legend.position"
+"1",":"
+"1"," num [1:2] "
+"1","0.9 0.1"
+"1","
+"
+"1"," "
+"1","- attr(*, ""class"")="
+"1"," chr [1:2] "
+"1","""theme"" ""gg"""
+"1","
+"
+"1"," "
+"1","- attr(*, ""complete"")="
+"1"," logi "
+"1","FALSE"
+"1","
+"
+"1"," "
+"1","- attr(*, ""validate"")="
+"1"," logi "
+"1","TRUE"
+"1","
+"
+"0","  "
+"0","graph_gen4 "

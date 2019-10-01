@@ -1,0 +1,6 @@
+"0","df.1c <- df.1c %>% 
+  mutate(Q7.3_sum = rowSums(.[2:5]))
+"
+"2","Error in UseMethod(""mutate_"") : 
+  no applicable method for 'mutate_' applied to an object of class ""list""
+"

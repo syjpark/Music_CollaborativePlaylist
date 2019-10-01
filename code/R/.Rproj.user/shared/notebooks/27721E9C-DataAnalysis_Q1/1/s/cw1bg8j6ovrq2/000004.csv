@@ -1,0 +1,5 @@
+"0","num_under18 <- df.raw %>% "
+"0","  filter(Q1.3 == ""No"")"
+"0","#str(df.raw)"
+"0","df.raw <- df.raw %>% "
+"0","  filter(Progress == 100, Status == ""IP Address"", Finished == TRUE, Q3.1 != ""asdf"", Q1.3 != ""No"")"

@@ -1,0 +1,53 @@
+---
+title: "Tunes Together: Understanding Users' Attitudes and Behaviors Towards Collaborative Music Playlists"
+subtitle: "playlist"
+author: "So Yeon Park & Alexa Siu"
+date: "`r Sys.time()`"
+urlcolor: blue # to show hyperlinks in blue when printed as pdf
+# edit the output format below
+# output: html_document # use this to render to html
+output: pdf_document # use this to render to pdf
+---
+
+<!-- The project proposal is due on __Thursday, February 21st at 8pm__. It should not be longer than __500 words__. It may contain code (code doesn't count toward the word limit).  -->
+
+## Introduction
+
+Collaborative music consumption behavior has morphed drastically with the availability of customized recommendations and online platforms for co-creating playlists. We are interested in gaining more nuanced understandings of the habits and emotions of today’s collaborative music curators.
+
+## Research question 
+
+<!-- - What's your main research question?  -->
+<!-- - Which hypotheses are you trying to test?  -->
+
+Two broad research questions drive this investigation:
+
+1. Does participating in collaborative music playlists change people's behavior or attitude towards music? We hypothesize that using collaborative playlists:
+    a. Diversifies people's taste in music.
+    b. Increases people's interest in music.
+    c. Increases social connectivity between the playlist participants.
+
+2. Do patterns of user behavior change depending on a collaborator's level of engagement? We hypothesize that highly engaged collaborators:
+    a. Make more frequent contributions to a shared playlist.
+    b. Have higher level of playlist ownership.
+
+## Methods 
+
+<!-- - Describe the data that you have. Are they based on an experiment, or will you work with an existing data set?  -->
+
+We have deployed a survey through Qualtrics and are currently collecting results. We will receive data from at least 50 students who are encouraged to take the survey for a music class at Stanford. There are a total of 70 questions in the survey and most of the data gathered is categorical/ordinal. The number of questions differs depending on some logic questions such as whether the participant has used a collaborative playlist or not. The questions ask in various categories such as: demographics, music habits, favorite collaborative playlists, engagement, and suggestions to exisiting collaborative playlists platforms.
+
+## Analysis 
+
+<!-- - What analyses are you planning on using?  -->
+
+Multiple questions will be used to answer the different hypotheses. Results will be analysed using linear mixed effects model comparisons. For example, to test the hypothesis that using collaborative playlists increases social connectivity between the playlist participants (1c), we will look at responses from two questions:
+1. Do they use collaborative playlists? (Yes/No)
+2. Has connecting to others through music declined? (Strongly agree to Strongly disagree)
+
+## Report
+
+<!-- - What figures and/or tables are you planning on showing?  -->
+
+We are going to report summary statistics in a table. This will include chi-square values and confidence intervals. We will also include line plots. Following the example with hypothesis 1c, we would have a plot with _user of collaborative playlist (Yes/No)_ on the x-axis and _level of connectedness_ on the y-axis.
+

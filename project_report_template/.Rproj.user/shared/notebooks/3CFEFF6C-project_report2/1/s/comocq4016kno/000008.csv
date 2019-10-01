@@ -1,0 +1,16 @@
+"0","# How often do you engage in the following activities... [collaborative playlist]?"
+"0","musicTaste_Q7_10 = df.raw_all %>%  "
+"0","  mutate(id = row_number()) %>% "
+"0","  select(c('id','Q2.3','Q7.10_1','Q7.10_2','Q7.10_3','Q7.10_9','Q7.10_8','Q7.10_10','Q7.10_11', 'Q7.10_13')) %>% "
+"0","  setnames(""Q2.3"", ""UseCP"") %>% "
+"0","  setnames(""Q7.10_1"", ""SuggestedByKnown"") %>% "
+"0","  setnames(""Q7.10_2"", ""SuggestedByStrangers"") %>% "
+"0","  setnames(""Q7.10_3"", ""IsRecommendedAI"") %>% "
+"0","  setnames(""Q7.10_8"", ""EvokesMemories"") %>% "
+"0","  setnames(""Q7.10_9"", ""IsFamiliar"") %>% "
+"0","  setnames(""Q7.10_10"", ""IsNew"") %>% "
+"0","  setnames(""Q7.10_11"", ""IsSimilar"") %>% "
+"0","  setnames(""Q7.10_13"", ""FeelsCollaborative"")"
+"2","Error: row_number() should only be called in a data context
+[90mCall `rlang::last_error()` to see a backtrace[39m
+"

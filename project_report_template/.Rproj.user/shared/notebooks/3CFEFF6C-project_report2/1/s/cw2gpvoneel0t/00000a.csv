@@ -1,0 +1,10 @@
+"0","# only include mean of factors from 5.16"
+"0","lm.compact = lm(ownership ~ 1 + mean_16, data = df.Q2)"
+"2","Error in is.data.frame(data) : object 'df.Q2' not found
+"
+"2","In addition: "
+"2","Warning message:
+"
+"2","In (function (x)  :"
+"2"," reached elapsed time limit
+"

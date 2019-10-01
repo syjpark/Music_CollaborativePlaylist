@@ -1,0 +1,4 @@
+"0","# 5.22"
+"0","# Songs in FAVE CP not added by me...?"
+"0","ggplot(df.useCP_binom, mapping = aes(x = factor(Q5.22))) +"
+"0","  geom_bar()"

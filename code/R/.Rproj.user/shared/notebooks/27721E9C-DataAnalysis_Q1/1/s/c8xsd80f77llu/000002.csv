@@ -1,0 +1,2 @@
+"0","pca.1a <- prcomp(df.1a_numeric, scale = TRUE)"
+"0","fviz_eig(pca.1a)"
